@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio - Wesley</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Wesley</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <section class="hero">
+  <img src="foto.jpeg" alt="Foto de Wesley" class="foto-perfil" />
+  <h1>Olá, eu sou o Wesley!</h1>
+  <p>Estudante de Engenharia de Software e apaixonado por desenvolvimento web.</p>
+</section>
+
+
+  <section id="sobre" class="sobre">
+    <h2>Sobre mim</h2>
+    <p>
+      Graduando em Engenharia de Software pela Unicesumar, atualmente estudando
+      HTML, CSS, JavaScript e React. Buscando minha primeira oportunidade na área
+      para crescer e contribuir.
+    </p>
+  </section>
+
+  <section id="projetos" class="projetos">
+  <h2>Projetos</h2>
+  <div class="projeto-lista">
+    <article class="projeto">
+      <h3>Museu Nacional</h3>
+      <p>Projeto responsivo com layout moderno.</p>
+      <a href="https://github.com/Weslecyto/projeto-museu-nacional" target="_blank">Ver no GitHub</a>
+    </article>
+    <article class="projeto">
+      <h3>Notícias da Cidade</h3>
+      <p>Portal de notícias com conteúdo dinâmico.</p>
+      <a href="https://github.com/Weslecyto/projeto-noticias-cidade" target="_blank">Ver no GitHub</a>
+    </article>
+    <article class="projeto">
+      <h3>Projeto Parallax</h3>
+      <p>Site com efeito parallax para experiência visual.</p>
+      <a href="https://github.com/Weslecyto/projeto-parallax" target="_blank">Ver no GitHub</a>
+    </article>
+    <article class="projeto">
+      <h3>Portfólio Básico</h3>
+      <p>Portfólio pessoal com HTML, CSS e JavaScript.</p>
+      <a href="https://github.com/Weslecyto/portfolio-basico" target="_blank">Ver no GitHub</a>
+    </article>
+  </div>
+</section>
+
+
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <form id="form-contato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+      <p id="status"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Wesley dos Santos Braga. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
